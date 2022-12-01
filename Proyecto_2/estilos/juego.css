@@ -1,0 +1,129 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;
+    border-style: dashed;*/
+}
+
+.contenedor1{
+    width: 100%;
+    height: 70%;
+    float: top;
+    /*border: 1px solid black;
+    border-style: dashed;*/
+}
+
+.pie{
+    width: 100%;
+    height: 30%;
+    float: bottom;
+    /*border: 1px solid black;
+    border-style: dashed;*/
+}
+
+.cabecera{
+    width: 100%;
+    height: 20%;
+    float: top;
+    /*border: 1px solid black;
+    border-style: dashed;*/
+}
+
+.cuerpo{
+    width: 100%;
+    height: 80%;
+    float: bottom;
+    /*border: 1px solid black;
+    border-style: dashed;*/
+}
+
+.izquierda{
+    width: 6%;
+    height: 100%;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.contenedor2{
+    width: 93%;
+    height: 100%;
+    float: right;
+    /*border: 1px solid red ;*/
+}
+
+.tablero{
+    width: 93%;
+    height: 100%;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.derecha{
+    width: 6%;
+    height: 100%;
+    float: right;
+    /*border: 1px solid black;*/
+}
+.derecha input{
+    float: center;
+    margin-top: 220%;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 70%;
+    height: 15%;
+    font-size: 150%;
+}
+
+.derecha input:hover{
+    border-color: aliceblue;
+}
+
+.izquierda input{
+    float: center;
+    margin-top: 190%;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 70%;
+    height: 15%;
+    font-size: 150%;
+}
+
+.izquierda input:hover{
+    border-color: aliceblue;
+}
+.cabecera button{
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 10%;
+    height: 30%;
+}
+
+.cabecera button:hover{
+    border-color: aliceblue;
+}
+
+
+/* Botones */
+
+table{
+    width: 100%;
+    height: 100%;
+}
+/*
+tr, td{
+    border: 1px solid black;
+}*/
+td{
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+
+img{
+    width: 130px;
+    height: 190px;
+}
